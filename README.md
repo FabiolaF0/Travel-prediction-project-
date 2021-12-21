@@ -35,4 +35,4 @@ Final project in team where we want to predict if a client will churn or not wit
 - Target = 1- Customer Churns 
            0- Customer Doesnt Churn 
 
-
+Voici le lien de notre application déployée : https://share.streamlit.io/fabiolaf0/travel-prediction-project-/main/app_final.py
