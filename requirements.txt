@@ -33,7 +33,5 @@ scikit-learn==1.0
 scipy==1.7.1
 seaborn==0.11.2
 streamlit==1.2.0
-ubuntu-advantage-tools==27.4
-ubuntu-drivers-common==0.0.0
 virtualenv==20.10.0
 xgboost==1.5.0
