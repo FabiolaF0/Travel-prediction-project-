@@ -1,27 +1,9 @@
-import streamlit as st
-import pickle
-import base64
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import warnings
-import seaborn as sns
-
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-import xgboost as xgb
-from sklearn.decomposition import PCA
-from imblearn.over_sampling import SMOTE
-from sklearn.model_selection import GridSearchCV
-
-from sklearn.pipeline import make_pipeline
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score
-
-import shap
-from PIL import Image
+streamlit 
+pickle
+base64
+numpy 
+pandas
+matplotlib 
+seaborn
+scikit-learn 
+xgboost 
