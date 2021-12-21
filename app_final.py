@@ -27,9 +27,6 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score
 
-import shap
-from PIL import Image
-
 #image
 img = Image.open("image.png")
 
