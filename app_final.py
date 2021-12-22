@@ -89,7 +89,7 @@ if uploaded_file:
     xgb = pipeline.score(X_test, y_test)
 
     col1, col2=st.columns(2)
-    col1.metric(label="Projection du nombre de clients se désengageant", value="{}%".format(round(xgb*100),2))
+    col1.metric(label="Fiabilité de la projection", value="{}%".format(round(xgb*100),2))
     col2.metric(label="Nombre de clients se désengageant", value=45)
 
 #Essaie de faire deux nouvelles colonnes
